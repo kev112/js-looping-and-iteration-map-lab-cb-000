@@ -4,3 +4,10 @@ function lowerCaseDrivers(drivers) {
     return driver.toLowerCase()
   })
 }
+
+function nameToAttributes(drivers) {
+  drivers.map(function (driver) {
+    const nameArray = driver.split(' ')
+    return {firstName: nameArray[0], lastName: nameArray[1]}
+  })
+}
