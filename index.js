@@ -11,3 +11,7 @@ function nameToAttributes(drivers) {
     return {firstName: nameArray[0], lastName: nameArray[1]}
   })
 }
+
+function attributesToPhrase() {
+  
+}
